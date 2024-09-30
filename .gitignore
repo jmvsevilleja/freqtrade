@@ -1,10 +1,10 @@
 # Freqtrade rules
-config*.json
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
 logfile.txt
-user_data/*
+user_data/backtest_results
+user_data/data
 !user_data/strategy/sample_strategy.py
 !user_data/notebooks
 !user_data/models
@@ -17,6 +17,7 @@ freqtrade-profit-plot.html
 freqtrade/rpc/api_server/ui/*
 build_helpers/ta-lib/*
 
+Pipfile
 # Macos related
 .DS_Store
 
